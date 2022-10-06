@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  assetPrefix: '/Storybook'
+  basePath: process.env.GITHUB_ACTIONS && "/Storybook",
+  trailingSlash: true
 }
 
 module.exports = nextConfig
