@@ -59,7 +59,7 @@ export default function Home() {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            testaaa
+            testaaaaaa
           </span>
         </a>
       </footer>
